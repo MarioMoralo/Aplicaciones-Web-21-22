@@ -1,0 +1,183 @@
+
+.uno {
+  border: 2px solid red;
+  position: relative;
+  background: red;
+  height: 100px;
+  width: 100px;
+
+
+}
+
+.dos {
+  border: 2px solid blue;
+  position: relative;
+  background: blue;
+  height: 100px;
+  width: 100px;
+
+}
+
+.tres {
+  border: 2px solid red;
+  position: relative;
+  background: red;
+  height: 100px;
+  width: 100px;
+  float:left
+
+
+}
+
+.cuatro {
+  border: 2px solid blue;
+  position: relative;
+  background: blue;
+  height: 100px;
+  width: 100px;
+  float:left
+
+
+}
+
+.cinco {
+  border: 2px solid red;
+  position: relative;
+  background: red;
+  height: 100px;
+  width: 100px;
+  float:left
+
+
+}
+
+.seis {
+  border: 2px solid blue;
+  position: relative;
+  background: blue;
+  height: 100px;
+  width: 100px;
+  float:right
+
+
+}
+
+.siete {
+  border: 2px solid blue;
+  position: relative;
+  background: blue;
+  height: 100px;
+  width: 100px;
+  float:right
+
+
+}
+
+.ocho {
+  border: 2px solid greenyellow;
+  position: relative;
+  background: greenyellow;
+  height: 100px;
+  width: 100px;
+  float:right
+
+
+}
+
+.nueve {
+  border: 2px solid red;
+  position: relative;
+  background: red;
+  height: 100px;
+  width: 100px;
+  float:left
+
+
+}
+
+.diez {
+  border: 2px solid purple;
+  position: relative;
+  background: purple;
+  height: 100px;
+  width: 100px;
+  float:right
+
+
+}
+
+.once {
+  border: 2px solid lawngreen;
+  position: relative;
+  background: lawngreen;
+  height: 100px;
+  width: 100px;
+  float:right
+
+
+}
+
+.doce {
+  border: 2px solid white;
+  position: relative;
+  background:white;
+  height: 100px;
+  width: 100px;
+  
+  
+
+}
+
+.trece {
+  border: 2px solid red;
+  position: relative;
+  background: red;
+  height: 100px;
+  width: 100px;
+  float:left
+  
+
+}
+
+.catorce {
+  border: 2px solid royalblue;
+  position: relative;
+  background: royalblue;
+  height: 130px;
+  width: 200px; 
+
+}
+
+.quince {
+  border: 2px solid darkgoldenrod;
+  position: relative;
+  background: darkgoldenrod;
+  height: 130px;
+  width: 200px;
+  top: -70px;
+  left: 30px;
+  
+
+}
+
+.dieciseis {
+  border: 2px solid darkgoldenrod;
+  position: absolute;
+  background: darkgoldenrod;
+  height: 130px;
+  width: 200px;
+  z-index: 1;
+
+}
+
+.diecisiete {
+  border: 2px solid springgreen;
+  position: relative;
+  background: springgreen;
+  height: 130px;
+  width: 200px;
+  top: 50px;
+  left: 30px;
+
+}
+
