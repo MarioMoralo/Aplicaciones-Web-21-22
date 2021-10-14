@@ -1,0 +1,25 @@
+
+.header {
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(150, 150, 150);
+    padding: 70px;
+  }
+
+.col {
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    background: rgb(179, 179, 179);
+    height: 720px;
+    width: 33%;
+    float:left;
+    
+}
+
+.footer {
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(61, 61, 61);
+    padding: 50px;
+    clear: left;
+}
