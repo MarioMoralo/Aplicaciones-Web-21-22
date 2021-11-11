@@ -1,0 +1,273 @@
+/*BODY*/
+body, html {
+    height: 100%;
+  }
+  
+
+/*NAVBAR*/
+body {
+    font-size: 20px;
+}
+  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(0, 0, 0);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+  
+li a:hover {
+    background-color: white;
+    color: black;
+}
+  
+.active {
+    background-color: white;
+    color: black;
+}
+
+/*TEXTO*/
+
+.letra{
+    color: rgb(0, 0, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 100px;
+}
+
+/*TITULO*/
+.titulo {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.titulo span.border {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  font-size: 25px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 10px;
+}
+
+/*TITULO1*/
+.titulo1 {
+    position: absolute;
+    left: 0;
+    width: 30%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  
+.titulo1 span.border {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+/*TITULO2*/
+
+.titulo2 {
+    position: absolute;
+    left: 0;
+    width: 55%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  
+.titulo2 span.border {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+/*TITULO3*/
+
+.titulo3 {
+    position: absolute;
+    left: 0;
+    width: 25%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  
+.titulo3 span.border {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+/*TITULO4*/
+
+.titulo4 {
+    position: absolute;
+    left: 0;
+    width: 20%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  
+.titulo4 span.border {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-size: 25px;
+    letter-spacing: 10px;
+}
+
+/*PARALLAX*/
+
+.parallax {
+    /* The image used */
+    background-image: url('https://noticiassalamanca.com/wp-content/uploads/2020/08/la-alberca-sierra-de-francia-01.jpg');
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+  @media only screen and (max-device-width: 1366px) {
+    .parallax {
+      background-attachment: scroll;
+    }
+  }
+
+/*PARALLAX2*/
+
+  .parallax2 {
+    /* The image used */
+    background-image: url('https://casasruralesyaventuras.com/wp-content/uploads/2018/12/Habitacion-de-Hotel-rural-Valdorba-en-Navarra-1920x1080-full-thumbx1080.jpg');
+  
+    /* Full height */
+    height: 40%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+  @media only screen and (max-device-width: 1366px) {
+    .parallax2 {
+      background-attachment: scroll;
+    }
+}
+
+
+
+/*FORMULARIO*/
+
+
+.contact_form {
+    width: 1500px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #f2f2f2;
+}
+
+
+input {
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 100%;
+    border-radius: 2px;
+    border-width: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 2px solid;
+    
+}
+
+input:hover{
+    height: 40px;
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 2px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+}
+
+label {
+    height: 40px;
+    width: 665px;
+    border-radius: 2px;
+    border-width: 1px;
+    padding: 10px;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 5px;
+
+}
+
+button {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    border: 1px;
+    height: 45px;
+    border-radius: 10px;
+    border-style: solid;
+    border: 1px solid;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    transition: 1s;
+    font-family: 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 2px solid black;
+    color: white;
+    letter-spacing: 5px;
+
+}
+
+button:hover {
+    height: 45px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: rgb(240, 255, 255);
+    color: black;
+}
+
